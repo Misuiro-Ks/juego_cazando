@@ -11,3 +11,13 @@ function graficarGato(){
     ctx.fillRect(x, y, ancho, alto);
     
 }
+
+function graficarComida(){
+    ctx.fillStyle = "#e9ec12";
+    ctx.fillRect(0, 0, 20, 20);
+}
+
+function iniciarJuego(){
+    graficarGato();
+    graficarComida();
+}
